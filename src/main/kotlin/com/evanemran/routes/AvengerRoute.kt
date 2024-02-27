@@ -8,7 +8,8 @@ import io.ktor.server.routing.*
 
 //private const val BASE_URL = "http://localhost:8100" // local web
 //private const val BASE_URL = "http://192.168.0.238:8100" // local IP
-private const val BASE_URL = "http://128.199.180.160:8100" // live IP
+//private const val BASE_URL = "http://128.199.180.160:8100" // live IP
+private const val BASE_URL = "http://evanemran.info:8100" // live IP
 
 private val avengers = listOf(
     Avenger("Black Widow","This is a test description","$BASE_URL/avengers/black-widow.jpg"),
